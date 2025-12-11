@@ -1,0 +1,79 @@
+p ,  span , .order__receipt-title {
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(135deg, #FFF1DA 0%, #DF6951 100%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.montserrat__logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    margin: 0;
+    height: 30px;
+    padding: 0;
+    color: #2A333B;
+    text-decoration: none;
+    position: relative;
+}
+.order__logo-img {
+    background-image: url("../img/logo.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40px;
+    width: 40px;
+}
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1200px;
+}
+.order__block {
+    margin-top: 100px;
+    max-width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 25px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.order__receipt {
+    text-align: left;
+    width: 80%;
+}
+.order__cut-here {
+    border: 1px dashed #000000;
+}
+.order__receipt-title {
+    text-align: center;
+}
+.order__btn {
+    font-family: "Roboto", sans-serif;
+    font-weight: <weight>;
+    font-style: normal;
+    margin-top: 20px;
+    padding: 15px 30px;
+    background-color: #ff6f61;
+    color: #ffffff;
+    border: none;
+    width: 80%;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: none;
+}
